@@ -46,7 +46,7 @@ function fractionConverter (number) {
   var y = bottom.toString();
   if(number > 0){
   return x+"/"+y;
-  }
+   }
   if(number < 0){
   return "-"+x+"/"+y;
   }
