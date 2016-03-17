@@ -27,8 +27,8 @@ deepEquals = function(a, b){
     result = true;
   }else{
     result = false;
-  }}
-  };
+  }
+  }};
   recurse(a, b);
   return result;
   };
