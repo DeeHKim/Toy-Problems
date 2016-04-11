@@ -1,4 +1,4 @@
-//Finish this implementation of a Hash Table. 
+//Implementation of a hash table. 
 //It should have the methods insert(), retrieve(), and remove(). 
 //Your hash table need not resize itself, but should also handle collisions.
 
