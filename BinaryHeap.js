@@ -20,7 +20,7 @@
 
 //[0, 1, 2, 3, 4, 5, 6, 7]
 
-where we always add to or remove from the end of the array.
+//where we always add to or remove from the end of the array.
 
 //A well known fact, utilized with binary heaps stored in arrays, 
 //is that we can calculate the index of a node’s parent or children using math:
