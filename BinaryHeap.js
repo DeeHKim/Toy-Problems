@@ -68,7 +68,7 @@ BinaryHeap.prototype.insert = function (value) {
 }
 BinaryHeap.prototype.removeRoot = function () {
   var that = this;
-  var val = this._heap[0];
+  var value = this._heap[0];
   this._heap[0] = this._heap.pop();
   function recurse(index) {
     var children = [index*2 + 1, index*2 + 2];
@@ -86,5 +86,5 @@ BinaryHeap.prototype.removeRoot = function () {
     }
   }
   recurse(0);
-  return val;
+  return value;
 }
