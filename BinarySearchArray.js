@@ -13,3 +13,26 @@
 
 //Do NOT use Array.prototype.indexOf in your solution. What would be the fun in that?
 
+function binarySearch (array, target) {
+  
+  var min = 0;
+  var max = array.length -1
+
+  while (min <= max) {
+
+  var index = Math.floor((min + max) / 2 );
+  var currentEl = array[index];
+ 
+    if (currentEl < target) {
+      min = index + 1;
+    }
+    else if (currentEl > target) {
+      max = index - 1;
+    }
+    else {
+    return index;
+    }
+  }
+    
+ return -1
+}
