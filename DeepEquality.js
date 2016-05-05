@@ -25,9 +25,9 @@ deepEquals = function(a, b){
     
   else if(obj1[key1[i]] === obj2[key1[i]]){
     result = true;
-  }else{
+    } else{
     result = false;
-  }
+    }
   }};
   recurse(a, b);
   return result;
